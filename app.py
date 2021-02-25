@@ -14,6 +14,14 @@ def page(path):
     page = pages.get_or_404(path)
     return render_template('page.html', page=page)
 
+@app.route('/verein.html')
+def verein():
+    return render_template('verein.html')
+
+@app.route('/impressum.html')
+def impressum():
+    return render_template('impressum.html')
+
 @app.route('/')
 def index():
     posts = [p for p in pages if "date" in p.meta]
