@@ -1,2 +1,8 @@
 flask
 flask_flatpages
+
+pytest
+pytest-cov
+requests
+pycodestyle
+codecov
