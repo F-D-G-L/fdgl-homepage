@@ -23,11 +23,12 @@ def impressum():
     return render_template('impressum.html')
 
 @app.route('/')
+@app.route('/index.html')
 def index():
     posts = [p for p in pages if "date" in p.meta]
     sorted_pages = sorted(posts, reverse=True, key=lambda page:
             datetime.strptime(page.meta["date"], "%d %b %y"))
-    return render_template('bloghome.html', pages=sorted_pages)
+    return render_template('index.html', pages=sorted_pages)
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0')
