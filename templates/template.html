@@ -1,44 +1,43 @@
 <!DOCTYPE html>
-<head>
-  <title>F.D.G.L e. V.</title>
-  <meta charset="utf-8">
-  <!-- Bootstrap CSS file -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
-  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
-  <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
-</head>
-<body>
-  <nav class="navbar navbar-expand-md">
-    <a class="navbar-brand" href="/index.html"><img src="/static/logo.png" alt="logo"
-      height="100"></a>
-    <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#main-navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="main-navigation">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link" href="/index.html">Home</a>
-        </li>                                                                           <li class="nav-item">
-          <a class="nav-link" href="/verein.html">Verein</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/impressum.html">Impressum</a>
-        </li>
-      </ul>
+<html lang="de">
+  <head>
+    <!-- CSS -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
+  </head>
+  <body class=post>
+    <div id="sidebar">
+      <header>
+        <div class="site-title">
+          <a href="{{ url_for("index") }}">
+            <img src="{{ url_for('static', filename='logo.png') }}" alt="F.D.G.L." height="150"/>
+            F.D.G.L. e.V.
+          </a>
+        </div>
+      </header>
+      <nav id="sidebar-nav-links">
+        <a class="page-link" href="{{ url_for('verein') }}">Verein</a>
+        <a class="page-link" href="#">News</a>
+        <a class="page-link" href="{{ url_for('impressum') }}">Impressum</a>
+      </nav>
     </div>
-  </nav>
-  <header class="page-header header container-fluid">
-  </header>
-  <main>
-  {% block content %}
-  {% endblock %}
-  </main>
-  <footer class="page-footer">
-    <div class="footer-copyright text-center">&copy; F.D.G.L. e.V.</div>
-  </footer>
-  <!-- JS files: jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
-  <script src="{{ url_for('static', filename='main.js') }}"></script>
-</body>
+    <main class="container">
+      <header>
+        <h1 class="post-title">Lorem Ipsum</h1>
+      </header>
+      <div class="content">
+        <div class="post-body">
+          {% block content %}
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+          ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id est laborum.
+          {% endblock content %}
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

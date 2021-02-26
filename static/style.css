@@ -1,27 +1,225 @@
+* {
+  box-sizing:border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Oxygen", "Ubuntu", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
 body {
-	padding: 0;
-	margin: 0;
-	background: #ffffff;
+    text-size-adjust:100%
+    background-attachment: fixed;
+    background-color: #000000;
+    color: rgba(255, 255, 255, 0.75);
+    display: flex;
+    flex-direction: column;
+    min-height:100vh
 }
 
-.navbar {
-	background: #000000;
+main {
+  display: block
 }
 
-.nav-link,
-.navbar-brand {
-	color: #ffff;
-	cursor: pointer;
+a {
+    color: #268bd2;
+    text-decoration:none
 }
 
-.nav-link {
-	margin-right: 1em !important;
+a:hover, a:focus {
+    text-decoration:underline
 }
 
-.nav-link:hover {
-	color: #e70c0c;
+a strong {
+    color:inherit
 }
 
-.navbar-collapse {
-	justify-content: flex-end;
+h1, h2, h3, h4, h5, h6, .site-title {
+    color: #313131;
+    font-weight: 600;
+    line-height: 1.25;
+    margin-bottom: .5rem;
+    text-rendering:optimizeLegibility
+}
+
+h1 {
+    font-size:2rem
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-top:1rem
+}
+
+#sidebar {
+    flex: 0 0 auto;
+    padding:2rem
+}
+
+#sidebar .site-title {
+    font-family: 'Abril Fatface', serif;
+    font-size: 1.25rem;
+    font-weight: normal;
+    margin-bottom: .5rem;
+    margin-top:0
+}
+
+#sidebar nav {
+  display: flex;
+}
+
+#sidebar-nav-links {
+  flex-flow: column nowrap;
+}
+
+.content {
+    background: #fff;
+    color: #515151;
+    padding:2rem
+}
+
+.container {
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction:column
+}
+
+.container > .content {
+    flex-grow: 1;
+    padding-bottom:4rem
+}
+
+.container > header {
+    background: transparent;
+    color: #fff;
+    margin:-1.5rem 2rem 2rem
+}
+
+.container > header h1, .container > header h2 {
+    color:inherit
+}
+
+.home #sidebar {
+    text-align:center
+}
+
+.home #sidebar .site-title {
+    font-size:3.25rem
+}
+
+.home #sidebar header ~ nav {
+    display:flex
+}
+
+.home #sidebar > * :last-child {
+    margin-bottom:0.5rem
+}
+
+@media (min-width: 49rem) {
+    body {
+        flex-direction: row;
+        min-height: 100vh;
+        -webkit-overflow-scrolling: touch;
+        overflow-y:auto
+    }
+
+    body > * {
+        -webkit-overflow-scrolling: touch;
+        overflow-y:auto
+    }
+
+    #sidebar, .home #sidebar {
+        text-align: left;
+        width:18rem
+    }
+
+    #sidebar > * :last-child, .home #sidebar > * :last-child {
+        margin-bottom:0
+    }
+
+    #sidebar {
+        position: fixed;
+        bottom: 0;
+        left:0
+    }
+
+    #sidebar .site-title {
+        font-size:3.25rem
+    }
+
+    #sidebar .site-title .back-arrow {
+        display:none
+    }
+
+    #sidebar p.lead, #sidebar header ~ * {
+        display:block
+    }
+
+    #sidebar header ~ nav {
+        display:flex
+    }
+
+    .index #sidebar {
+        margin-bottom:0
+    }
+
+    .container {
+        background: #fff;
+        color: #515151;
+        min-height: 100vh;
+        padding: 4rem 4rem 0;
+        margin-left:18rem
+    }
+
+    .container > header {
+        color: #313131;
+        margin:0
+    }
+
+    .container > header h1, .container > header h2 {
+        color:inherit
+    }
+
+    .container > header h1:last-child, .container > header h2:last-child {
+        margin-bottom:.5rem
+    }
+
+    .container > * {
+        max-width: 38rem;
+        padding:0
+    }
+}
+
+#sidebar a {
+    color:#fff
+}
+
+#sidebar a:hover, #sidebar a:focus {
+    text-decoration:underline
+}
+
+@media screen and (max-width: 783px) {
+    .container > .content {
+        padding:1.5rem
+    }
+
+    #sidebar #sidebar-nav-links {
+        flex-direction: row;
+        justify-content:space-evenly
+    }
+
+    #sidebar #sidebar-nav-links a {
+        display: inline-block;
+        margin:0 .5em
+    }
+
+    .home.index #sidebar {
+        padding: 1rem
+    }
 }
