@@ -15,7 +15,7 @@ setup:
 
 test:
 	${PYCODESTYLE} *.py
-	${PYTHON} -m pytest
+#	${PYTHON} -m pytest
 
 clean:
 	@echo "cleaning"
