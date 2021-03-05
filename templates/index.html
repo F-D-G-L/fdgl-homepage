@@ -1,4 +1,7 @@
 {% extends "template.html" %}
+{%  block title %}
+    News
+{%  endblock %}
 {% block content %}
   {% for page in pages %}
   <a href="{{ page.path }}.html"><h2>{{ page.title }}</h2></a>
