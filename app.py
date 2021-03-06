@@ -31,7 +31,7 @@ def impressum():
 def index():
     posts = [p for p in pages if "date" in p.meta]
     sorted_pages = sorted(posts, reverse=True, key=lambda page:
-                          datetime.strptime(page.meta["date"], "%d %b %y"))
+                          datetime.strptime(page.meta["date"], "%d.%m.%Y"))
     return render_template('index.html', pages=sorted_pages)
 
 

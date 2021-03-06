@@ -10,20 +10,24 @@
       <header>
         <div class="site-title">
           <a href="{{ url_for("index") }}">
-            <img src="{{ url_for('static', filename='logo.png') }}" alt="F.D.G.L." height="150"/>
-            F.D.G.L. e.V.
+            <img src="{{ url_for('static', filename='logo.png') }}" alt="Fdgl - Freunde des geordneten Lärms e.V." height="150"/>
+            FdgL e.V.
           </a>
         </div>
+        <div class="site-subtitle">
+            Freunde des geordneten Lärms e.V.
+            <hr/>
+        </div>
       </header>
-      <nav id="sidebar-nav-links">
+        <nav id="sidebar-nav-links">
         <a class="page-link" href="{{ url_for('verein') }}">Verein</a>
-        <a class="page-link" href="#">News</a>
+        <a class="page-link" href="{{ url_for('index') }}">News</a>
         <a class="page-link" href="{{ url_for('impressum') }}">Impressum</a>
       </nav>
     </div>
     <main class="container">
       <header>
-        <h1 class="post-title">Lorem Ipsum</h1>
+        <h1 class="post-title">{% block title %}{% endblock %}</h1>
       </header>
       <div class="content">
         <div class="post-body">

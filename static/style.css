@@ -121,6 +121,20 @@ h2 {
     margin-bottom:0.5rem
 }
 
+/*
+   Styling for images meant to be embedded within blog post. Use it
+   by append #illustration to image url in markdown like:
+   ![Kitten](static/img/kitten.jpg#illustration)
+ */
+img[src $= "#illustration"] {
+    display: block;
+    margin-top: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+    width: 60%;
+}
+
 @media (min-width: 49rem) {
     body {
         flex-direction: row;
@@ -145,12 +159,12 @@ h2 {
 
     #sidebar {
         position: fixed;
-        bottom: 0;
         left:0
     }
 
     #sidebar .site-title {
-        font-size:3.25rem
+        font-size:3.25rem;
+        text-align: center;
     }
 
     #sidebar .site-title .back-arrow {
