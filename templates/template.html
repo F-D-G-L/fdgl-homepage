@@ -4,6 +4,7 @@
     <!-- CSS -->
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
     <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
+    {{ fontawesome_html() }}
   </head>
   <body class=post>
     <div id="sidebar">
@@ -43,5 +44,6 @@
         </div>
       </div>
     </main>
+    {{ fontawesome_js() }}
   </body>
 </html>
