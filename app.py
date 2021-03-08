@@ -6,16 +6,22 @@ from flask_flatpages.utils import pygmented_markdown
 from flask_fontawesome import FontAwesome
 from datetime import datetime
 
+from fotogrid import fotogrid
+
 # directly support jinja within markdown blogposts
 # https://flask-flatpages.readthedocs.io/en/v0.7.1/
 def markdown_with_jinja_renderer(text):
     prerendered_body = render_template_string(text)
     return pygmented_markdown(prerendered_body)
 
+# create app
 app = Flask(__name__)
 app.config['FLATPAGES_EXTENSION'] = '.md'
 app.config['FLATPAGES_HTML_RENDERER'] = markdown_with_jinja_renderer
 app.config['FONTAWESOME_STYLES'] = ['solid', 'brands']
+
+# register fotogrid with jinja
+app.jinja_env.globals.update(fotogrid=fotogrid)
 
 pages = FlatPages(app)
 fa = FontAwesome(app)
@@ -51,30 +57,7 @@ def index():
     return render_template('index.html', pages=sorted_pages)
 
 
-def fotogrid(image_urls):
-    result = '<div class="fotorow">'
-    cols = 4
-    images = divmod(len(image_urls), cols)
-    images_per_col = images[0]
-    if images[1] > 0:
-        images_per_col += 1
-    nbr = 0
-    for img in image_urls:
-        if (nbr % images_per_col) == 0:
-            if nbr > 0:
-                result += '</div>'  # closing fotocolumn
-            result += '<div class="fotocolumn">'
-        result += '<img src="' + img + '" style="width:100%">'
-        nbr += 1
 
-    result += "</div></div>"  # closing fotocolum, fotorow
-    return result
-
-
-app.jinja_env.globals.update(fotogrid=fotogrid)
-
-#template = Template('Fotogrid')
-#template.globals['fotogrid'] = fotogrid
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0')
