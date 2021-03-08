@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# SPDX-License-Identifier: GPL-3.0
 # vim: set sw=4 ts=4 ex
 from flask import Flask, render_template, url_for
 from flask_flatpages import FlatPages
