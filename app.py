@@ -18,12 +18,6 @@ def page(path):
     page = pages.get_or_404(path)
     return render_template('page.html', page=page)
 
-
-@app.route('/verein.html')
-def verein():
-    return render_template('verein.html')
-
-
 @app.route('/datenschutz.html')
 def datenschutz():
     return render_template('datenschutz.html')
