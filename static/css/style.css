@@ -57,6 +57,11 @@ h2 {
     margin-top:1rem
 }
 
+hr  {
+    border: 1px solid #c11012;
+    border-radius: 2px;
+}
+
 #sidebar {
     flex: 0 0 auto;
     padding:2rem

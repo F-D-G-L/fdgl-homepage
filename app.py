@@ -14,6 +14,10 @@ def markdown_with_jinja_renderer(text):
     prerendered_body = render_template_string(text)
     return pygmented_markdown(prerendered_body)
 
+def format_date_string(date_string):
+    date = datetime.strptime(date_string, "%d.%m.%Y")
+    return date.strftime("%d. %B %Y")
+
 # create app
 app = Flask(__name__)
 app.config['FLATPAGES_EXTENSION'] = '.md'
@@ -22,6 +26,7 @@ app.config['FONTAWESOME_STYLES'] = ['solid', 'brands']
 
 # register fotogrid with jinja
 app.jinja_env.globals.update(fotogrid=fotogrid)
+app.jinja_env.globals.update(format_date_string=format_date_string)
 
 pages = FlatPages(app)
 fa = FontAwesome(app)
