@@ -7,17 +7,14 @@ import sys
 import pytest
 import pytest_cov.embed
 
-def test_static_pages():
+def test_static_pages(app, client):
     
     for f in os.listdir('templates'):
         if f == "template.html" or f == "page.html":
             continue
 
         static_file = f.split('.',1)[0]
-    
-        print("Checking presence of method: ", static_file)
-        try:
-            method = getattr(app, static_file)
-            assert True
-        except NotImplementedError:
-            assert False
+        page = "/" + static_file + ".html"
+        print("Checking presence of: ", page)
+        res = client.get(page)
+        assert res.status_code == 200
