@@ -21,6 +21,11 @@ def verein():
     return render_template('verein.html')
 
 
+@app.route('/datenschutz.html')
+def datenschutz():
+    return render_template('datenschutz.html')
+
+
 @app.route('/impressum.html')
 def impressum():
     return render_template('impressum.html')
