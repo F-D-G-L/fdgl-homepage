@@ -1,5 +1,5 @@
 title: Festivaltagebuch - W:O:A 2019
-date: 01.11.2020
+date: 05.08.2019
 author: Markus
 description: Ein weiterer Artikel aus der Reihe „FDGL on Tour“. Diesmal mein ganz persönliches Festivaltagebuch zu Wacken 2019 mit einigen Erlebnissen und Konzertberichten. Habt Spaß!
 
@@ -63,7 +63,7 @@ Heute heisst es, früh aufzustehen. Wir wollen gleich morgens auf’s Infield, s
 Übrigens, typisch Metalheads: Die Gates zum Infield sind noch geschlossen und es bilden sich ganz brav geordnete Schlangen. Man drängelt nicht, unterhält sich und wartet geduldig, bis man drankommt.
 ![Geduldiges Schlangestehen: Metalheads eben.](static/img/woa2019_08.jpg#illustration "Warteschlange")
 
-Gleich im Anschluss spielen **Queensrÿche** auf der Mittelbühne. Natürlich nicht mehr mit _Geoff Tate_, der 2012 nach andauernden Schwierigkeiten von seinen Musikerkollegen entlassen wurde und seitdem mit seiner Band _Operation: Mindcrime_ für Verwirrung sorgt. Nun steht _Todd La Torre_ am Mikrofon und kann uns voll überzeugen. Neben uns ein alter Fan im original Tour-Shirt der _Operation Mindcrime_-Europatour, der sich wie ein kleines Kind freut. Wir freuen uns ebenfalls, schließlich werden wir Queensrÿche beim [Christmas Bash 2019](https://www.christmasbash.de "Christmas Bash in Geiselwind") noch einmal erleben dürfen.
+Gleich im Anschluss spielen **Queensrÿche** auf der Mittelbühne. Natürlich nicht mehr mit _Geoff Tate_, der 2012 nach andauernden Schwierigkeiten von seinen Musikerkollegen entlassen wurde und seitdem mit seiner Band _Operation: Mindcrime_ für Verwirrung sorgt. Nun steht _Todd La Torre_ am Mikrofon und kann uns voll überzeugen. Neben uns ein alter Fan im original Tour-Shirt der _Operation Mindcrime_-Europatour, der sich wie ein kleines Kind freut. Wir freuen uns ebenfalls, schließlich werden wir Queensrÿche beim [Christmas Bash 2019](https://www.christmasbash.de#extern "Christmas Bash in Geiselwind") noch einmal erleben dürfen.
 
 Wer von Euch kann sich noch an die Crossover-Band **Body Count** erinnern, die mit ihrem 1992 erschienenen gleichnamigen Song bzw. Album damals in jeder Metaldisco gespielt wurden? Tatsächlich waren **Body Count featuring Ice-T** beim diesjährigen Wacken live zu erleben. Wer’s mag, Motherf\*\*\*\*\*! 
  ![Wer guckt da so skeptisch zu Ice-Ts Gerappe?](static/img/woa2019_09.jpg#illustration "Dieter skeptisch")

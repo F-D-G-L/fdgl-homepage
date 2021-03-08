@@ -28,7 +28,7 @@ main {
 }
 
 a {
-    color: #268bd2;
+    color: #c11012;
     text-decoration:none
 }
 
@@ -134,6 +134,34 @@ img[src $= "#illustration"] {
     border-radius: 8px;
     width: 60%;
 }
+
+/*
+    Display an external icon after each link that leads away from our site.
+ */
+.content a[href^="http://"]:not([href*="fdgl.rocks"]):not([href*="youtu.be"]):not([href*="youtube.com"]):after,
+.content a[href^="https://"]:not([href*="fdgl.rocks"]):not([href*="youtu.be"]):not([href*="youtube.com"]):after {
+
+    font-family: 'Font Awesome 5 Free';
+    content: "\f35d";
+    display: inline-block;
+    font: normal 16px/1 'Font Awesome 5 Free';
+    margin-left: 4px;
+}
+/*
+    Display an Youtube icon left of every youtube link.
+ */
+.content a[href^="http://youtu.be"]:before,
+.content a[href^="https://youtu.be"]:before,
+.content a[href^="http://youtube.com"]:before,
+.content a[href^="https://youtube.com"]:before {
+
+    font-family: "Font Awesome 5 Brands";
+    content: "\f167";
+    display: inline-block;
+    font: normal 16px/1 'Font Awesome 5 Brands';
+    margin-right: 4px;
+}
+
 
 @media (min-width: 49rem) {
     body {
