@@ -1,5 +1,5 @@
 title: Festivaltagebuch - W:O:A 2019
-date: 01.11.2020
+date: 05.08.2019
 author: Markus
 description: Ein weiterer Artikel aus der Reihe „FDGL on Tour“. Diesmal mein ganz persönliches Festivaltagebuch zu Wacken 2019 mit einigen Erlebnissen und Konzertberichten. Habt Spaß!
 
@@ -42,7 +42,7 @@ Zu **Rose Tattoo** wurde der Sound übrigens etwas besser, nur um dann bei **Sis
 
 ## Do 01.08.2019, Erster „voller“ Festivaltag
 
-Heute ist der erste „echte“ Festivaltag. Das Infield wird heute eröffnet und traditionell tritt **Skyline** als Erstes an. Die Band, für die Wacken einst ins Leben gerufen wurde. Schließlich war eine Hauptmotivation für das erste Wacken Open Air 1990, der Band, in der Veranstalter _Thomas Jensen_ Bass spielte, die dringend benötigte Auftrittsmöglichkeit zu bieten. Zum 30-jährigen Jubiläum hat Skyline sogar extra zwei Wacken-Hymnen, <span class="fab fa-youtube"></span> _[“30 Years Ago“](https://youtu.be/-1ohBAl7h0M "Skyline - 30 Years Ago")_ und <span class="fab fa-youtube"></span> _[“This is W:O:A“](https://youtu.be/2OVCkfVLfNg "Skline - This is W:O:A"),_ komponiert und  selbst _Thomas Jensen_ betritt für einen Song die Bühne und begleitet am Bass. 
+Heute ist der erste „echte“ Festivaltag. Das Infield wird heute eröffnet und traditionell tritt **Skyline** als Erstes an. Die Band, für die Wacken einst ins Leben gerufen wurde. Schließlich war eine Hauptmotivation für das erste Wacken Open Air 1990, der Band, in der Veranstalter _Thomas Jensen_ Bass spielte, die dringend benötigte Auftrittsmöglichkeit zu bieten. Zum 30-jährigen Jubiläum hat Skyline sogar extra zwei Wacken-Hymnen, _[“30 Years Ago“](https://youtu.be/-1ohBAl7h0M "Skyline - 30 Years Ago")_ und _[“This is W:O:A“](https://youtu.be/2OVCkfVLfNg "Skline - This is W:O:A"),_ komponiert und  selbst _Thomas Jensen_ betritt für einen Song die Bühne und begleitet am Bass. 
 ![Skyline mit Thomas Jensen am Bass](static/img/woa2019_05.jpg#illustration "Sykline")
 
 Weiter geht es dann für uns mit **Beyond the Black**. Die junge Band um Sängerin _Jennifer Haben_ strahlt Sympathie und Spielfreude aus. Besonders emotional wird es, als sich Jennifer ans Piano setzt und zusammen mit der furiosen _Tina Guo_ am E-Cello ein virtuoses Duett zum Besten gibt.
@@ -50,7 +50,7 @@ Weiter geht es dann für uns mit **Beyond the Black**. Die junge Band um Sänger
 
 „**Testament**, Alter!“ Gewohnt guter Thrash-Abriss nachmittags um fünf auf der „Louder“ Stage. _Chuck Billy_ und seine Jungs geben mächtig Gas  und alle Old-School-Thrasher moshen mit.
 
-Als **Airbourne** auf der Bühne stehen, schaue ich nicht schlecht. Auf der Video-Leinwand sehe ich den Gitarristen im Fotograben stehen und zusammen mit einem Rollifahrer heftig moshen. Es handelt sich um  Björn _“Hobbyquerschnitt“_, den wir letztes Jahr auf dem Metal Hammer Paradise kennengelernt haben.  Björn betreibt ein Blog unter [hobbyquerschnitt.de](https://www.hobbyquerschnitt.de/ "Hobbyquerschnitts Blog") <span class="fas fa-external-link-alt"></span> und ist darüber hinaus in weiteren sozialen Netzwerken aktiv. Als wir damals im Gespräch waren, sahen wir plötzlich _Holger Hübner_, einen der Wacken-Chefs, über den Platz auf uns zukommen. Natürlich haben wir ihn freundlich angequatscht und Björn nutzte die Gelegenheit gleich, Holger um eine Foto-Akkreditierung für das Wacken 2019 zu bitten. Was scheinbar geklappt hat - Glückwunsch!
+Als **Airbourne** auf der Bühne stehen, schaue ich nicht schlecht. Auf der Video-Leinwand sehe ich den Gitarristen im Fotograben stehen und zusammen mit einem Rollifahrer heftig moshen. Es handelt sich um  Björn _“Hobbyquerschnitt“_, den wir letztes Jahr auf dem Metal Hammer Paradise kennengelernt haben.  Björn betreibt ein Blog unter [hobbyquerschnitt.de](https://www.hobbyquerschnitt.de/ "Hobbyquerschnitts Blog") und ist darüber hinaus in weiteren sozialen Netzwerken aktiv. Als wir damals im Gespräch waren, sahen wir plötzlich _Holger Hübner_, einen der Wacken-Chefs, über den Platz auf uns zukommen. Natürlich haben wir ihn freundlich angequatscht und Björn nutzte die Gelegenheit gleich, Holger um eine Foto-Akkreditierung für das Wacken 2019 zu bitten. Was scheinbar geklappt hat - Glückwunsch!
 
 Der Hauptact am Donnerstag ist **Sabaton**, die sich zu ihrem 20-jährigen Band-Jubiläum nicht mit einer Bühne begnügen wollen und ihre große Show zu den Songs des neuen Albums _“The Great War“_ auf beiden Mainstages präsentieren. Ich würde Euch gerne mehr davon erzählen, allerdings hielt ich es wie der _Dieter_ und übte mich in aktiver **Sabaton**-Vermeidung (es sei uns verziehen...).
 
@@ -63,7 +63,7 @@ Heute heisst es, früh aufzustehen. Wir wollen gleich morgens auf’s Infield, s
 Übrigens, typisch Metalheads: Die Gates zum Infield sind noch geschlossen und es bilden sich ganz brav geordnete Schlangen. Man drängelt nicht, unterhält sich und wartet geduldig, bis man drankommt.
 ![Geduldiges Schlangestehen: Metalheads eben.](static/img/woa2019_08.jpg#illustration "Warteschlange")
 
-Gleich im Anschluss spielen **Queensrÿche** auf der Mittelbühne. Natürlich nicht mehr mit _Geoff Tate_, der 2012 nach andauernden Schwierigkeiten von seinen Musikerkollegen entlassen wurde und seitdem mit seiner Band _Operation: Mindcrime_ für Verwirrung sorgt. Nun steht _Todd La Torre_ am Mikrofon und kann uns voll überzeugen. Neben uns ein alter Fan im original Tour-Shirt der _Operation Mindcrime_-Europatour, der sich wie ein kleines Kind freut. Wir freuen uns ebenfalls, schließlich werden wir Queensrÿche beim [Christmas Bash 2019](https://www.christmasbash.de#extern "Christmas Bash in Geiselwind") <span class="fas fa-external-link-alt"></span> noch einmal erleben dürfen.
+Gleich im Anschluss spielen **Queensrÿche** auf der Mittelbühne. Natürlich nicht mehr mit _Geoff Tate_, der 2012 nach andauernden Schwierigkeiten von seinen Musikerkollegen entlassen wurde und seitdem mit seiner Band _Operation: Mindcrime_ für Verwirrung sorgt. Nun steht _Todd La Torre_ am Mikrofon und kann uns voll überzeugen. Neben uns ein alter Fan im original Tour-Shirt der _Operation Mindcrime_-Europatour, der sich wie ein kleines Kind freut. Wir freuen uns ebenfalls, schließlich werden wir Queensrÿche beim [Christmas Bash 2019](https://www.christmasbash.de#extern "Christmas Bash in Geiselwind") noch einmal erleben dürfen.
 
 Wer von Euch kann sich noch an die Crossover-Band **Body Count** erinnern, die mit ihrem 1992 erschienenen gleichnamigen Song bzw. Album damals in jeder Metaldisco gespielt wurden? Tatsächlich waren **Body Count featuring Ice-T** beim diesjährigen Wacken live zu erleben. Wer’s mag, Motherf\*\*\*\*\*! 
  ![Wer guckt da so skeptisch zu Ice-Ts Gerappe?](static/img/woa2019_09.jpg#illustration "Dieter skeptisch")
@@ -89,7 +89,7 @@ Rechts leicht schräg vor mir steht ein junger Mann, dessen Dreads bis in die Kn
 ## Sa 03.08.2019, Letzter Festivaltag
 So schnell kann’s gehen. Es ist bereits Samstag, der letzte Festivaltag. Auf der Running Order steht heute eher coriges, den Headliner bilden heute **Parkway Drive**. Dennoch hat der Tag einiges an Erlebnissen zu bieten, so muss der alte Herr in mir auf jeden Fall zu **Uriah Heep**_. Auch wenn von den alten Heep nur noch der sympathische _Mick Box_ übriggeblieben ist, der uns dafür aber sehr herzlich auf Deutsch begrüßt und uns natürlich, nach etlichen Liedern vom aktuellen Album _Living the Dream_ , auch mit _Lady in Black_ belohnt.
 
-Auch **Kvelertak** machen Laune. Allerdings müssen wir nach drei Songs weiter in Richtung Wasteland. Ein FDGL-Fototermin wartet. Auf der Wasteland Stage  machen sich gerade **Critical Mess** bereit für ihren Auftritt, deren Fronterin _Britta Görtz_ nicht nur in Wacken, sondern auch beim [FDGL-Growl-Workshop](https://www.fdgl.rocks/?p=217 "FDGL Growl-Workshop") <span class="fas fa-external-link-alt"></span> beweisen wird, dass sie es drauf hat.
+Auch **Kvelertak** machen Laune. Allerdings müssen wir nach drei Songs weiter in Richtung Wasteland. Ein FDGL-Fototermin wartet. Auf der Wasteland Stage  machen sich gerade **Critical Mess** bereit für ihren Auftritt, deren Fronterin _Britta Görtz_ nicht nur in Wacken, sondern auch beim [FDGL-Growl-Workshop](https://www.fdgl.rocks/?p=217 "FDGL Growl-Workshop") beweisen wird, dass sie es drauf hat.
 
 Übrigens, während wir auf **Critical Mess**  warten, werden wir von einem Fotografen angesprochen, der unsere Kutten fotografieren möchte. Dabei ist ein herrliches Bild entstanden, dass bereits auf Facebook entdeckt wurde und  im FDGL Chat kursierte.
 
@@ -97,7 +97,7 @@ Dann geht’s los. **Critical Mess** knüppeln und haben die Crowd schnell auf i
 
 Ich bleibe nicht die ganze Zeit dabei, da ich unbedingt noch die jungen Isländer **Vintage Caravan** im Bullhead City Zelt erleben möchte.
 
-Eine weiteres Spektakel steht uns noch mit der _30th Anniversary Show_ bevor, die ihr Euch auch auf <span class="fab fa-youtube"></span> [YouTube](https://youtu.be/HWH7tjm5IOI "Wacken 30th Anniversary Show") ansehen könnt. Das Jubiläum wurde mit einer aufwändigen Video-, Feuer-, Laser- und Life-Performance gefeiert. Gleichzeitig wurden die ersten Acts für das 2020er „Themen-Wacken“ im Zeichen der Mayas und Azteken angekündigt.
+Eine weiteres Spektakel steht uns noch mit der _30th Anniversary Show_ bevor, die ihr Euch auch auf [YouTube](https://youtu.be/HWH7tjm5IOI "Wacken 30th Anniversary Show") ansehen könnt. Das Jubiläum wurde mit einer aufwändigen Video-, Feuer-, Laser- und Life-Performance gefeiert. Gleichzeitig wurden die ersten Acts für das 2020er „Themen-Wacken“ im Zeichen der Mayas und Azteken angekündigt.
 ![Laser-, Video-, Feuer- und Lifeperformance zum 30-jährigen Wacken Jubiläum](static/img/woa2019_14.jpg#illustration "30th Anniversary") 
 
 **Parkway Drive**  ziehen mit einem Fackelzug direkt durch die Menge auf die Bühne, eröffnen mit _Wishing Wells_ und _Prey_ und kündigen danach an, dass der Gig beinahe ausfallen musste, da sich der Bassist ein Knie gebrochen hatte. Sänger _Winston McCall_ kündigt daraufhin an: „Please welcome our new and improved bass player on a wheel chair!“ und Bassist _Jia O’Connor_ wird von seiner Mutter (!) im Rollstuhl auf die Bühne geschoben. Diese wiederum nutzt die Gelegenheit und startet zu _Carrion_ in die Menge, um zum ersten Mal in ihrem Leben zu crowdsurfen. Wie die Menge sie feiert!
