@@ -13,7 +13,11 @@ def test_static_pages(app, client):
         if f == "template.html" or f == "page.html":
             continue
 
-        static_file = f.split('.',1)[0]
+        # ignore non html files like system files e.g. '.DS_Store', '.thumbsdb', ...
+        if f.split('.', 1)[1] not in ['html', 'htm']:
+            continue
+
+        static_file = f.split('.', 1)[0]
         page = "/" + static_file + ".html"
         print("Checking presence of: ", page)
         res = client.get(page)
