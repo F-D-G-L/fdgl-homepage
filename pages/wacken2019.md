@@ -104,3 +104,6 @@ Eine weiteres Spektakel steht uns noch mit der _30th Anniversary Show_ bevor, di
 
 ## So 04.08.2019, Trennungsschmerz 
 Tja, am Sonntag ist dann wieder alles vorbei. Schade. Es löst sich auf, man verabschiedet sich und fährt wieder heim. Bei der Abfahrt vom Platz begegnen uns nochmal zufällig die Wabers und wir winken uns von Auto zu Auto zu, bevor wir uns in die Abreiseschlange einsortieren, diese aber bald wieder verlassen, da wir noch ein paar Tage an der Ostsee daranhängen werden. Schön war’s!
+
+<hr/>
+{{ fotogrid(["static/img/woa2019_01.jpg", "static/img/woa2019_02.jpg", "static/img/woa2019_03.jpg", "static/img/woa2019_04.jpg", "static/img/woa2019_05.jpg", "static/img/woa2019_06.jpg", "static/img/woa2019_07.jpg", "static/img/woa2019_08.jpg", "static/img/woa2019_09.jpg", "static/img/woa2019_10.jpg", "static/img/woa2019_11.jpg", "static/img/woa2019_12.jpg", "static/img/woa2019_13.jpg", "static/img/woa2019_14.jpg"])|safe }}
