@@ -2,12 +2,15 @@
 # vim: set sw=4 ts=4 ex
 from flask import Flask, render_template, url_for
 from flask_flatpages import FlatPages
+from flask_fontawesome import FontAwesome
 from datetime import datetime
 
 app = Flask(__name__)
 app.config['FLATPAGES_EXTENSION'] = '.md'
+app.config['FONTAWESOME_STYLES'] = ['solid', 'brands']
 
 pages = FlatPages(app)
+fa = FontAwesome(app)
 
 
 @app.route('/<path:path>.html')

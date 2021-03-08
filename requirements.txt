@@ -1,5 +1,6 @@
 flask
 flask_flatpages
+flask_fontawesome
 
 pytest
 pytest-cov
