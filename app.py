@@ -5,7 +5,6 @@ from flask_flatpages import FlatPages
 from flask_flatpages.utils import pygmented_markdown
 from flask_fontawesome import FontAwesome
 from datetime import datetime
-
 from fotogrid import fotogrid
 
 # directly support jinja within markdown blogposts
@@ -14,9 +13,12 @@ def markdown_with_jinja_renderer(text):
     prerendered_body = render_template_string(text)
     return pygmented_markdown(prerendered_body)
 
+
+# function to reformat date from blog posts for better visualization on the pages
 def format_date_string(date_string):
     date = datetime.strptime(date_string, "%d.%m.%Y")
     return date.strftime("%d. %B %Y")
+
 
 # create app
 app = Flask(__name__)
@@ -60,8 +62,6 @@ def index():
     sorted_pages = sorted(posts, reverse=True, key=lambda page:
                           datetime.strptime(page.meta["date"], "%d.%m.%Y"))
     return render_template('index.html', pages=sorted_pages)
-
-
 
 
 if __name__ == '__main__':
