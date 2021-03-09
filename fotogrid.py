@@ -10,7 +10,7 @@ def fotogrid(image_urls):
     if len(image_urls) == 0:
         return ""
 
-    # prepare our 'bins', the columsn of the fotogrid
+    # prepare our 'bins', the columns of the fotogrid
     nbr_of_columns = 4
     prepared_column = []
     for i in range(nbr_of_columns):
