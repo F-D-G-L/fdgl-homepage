@@ -1,6 +1,8 @@
-# Provide a simple responsive fotogrid using flex layout.
-# Depends on the css/fotogrid.css defined styles.
 def fotogrid(image_urls):
+    """
+    Provide a simple responsive fotogrid using flex layout.
+    Depends on the css/fotogrid.css defined styles.
+    """
     result = '<div class="fotorow">'
     cols = 4
     images = divmod(len(image_urls), cols)
