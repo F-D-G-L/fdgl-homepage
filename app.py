@@ -15,7 +15,8 @@ def markdown_with_jinja_renderer(text):
     return pygmented_markdown(prerendered_body)
 
 
-# function to reformat date from blog posts for better visualization on the pages
+# function to reformat date from blog posts for better
+# visualization on the pages
 def format_date_string(date_string):
     date = datetime.strptime(date_string, "%d.%m.%Y")
     return date.strftime("%d. %B %Y")
