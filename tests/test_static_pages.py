@@ -7,6 +7,7 @@ import sys
 import pytest
 import pytest_cov.embed
 
+
 def test_static_pages(app, client):
     
     for f in os.listdir('templates'):
