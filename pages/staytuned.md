@@ -1,7 +1,7 @@
 title: FDGL 2021, stay tuned...
 date: 01.11.2020
 author: Markus
-description: Für 2021 haben wir uns ein bischen 'was vorgenommen. 
+description: Für 2021 haben wir uns ein bisschen 'was vorgenommen. 
 
 2020 war ja für uns alle „irgendwie so meh“ — unsere bescheidenen Pläne wurden von einer globalen Pandemie durchkreuzt und wir erlebten, wie auf einmal die ganze (Live-)Kulturszene auf null gefahren wurde. Keine Konzerte, keine Festivals. Kein Metal? Scheint so, stimmt aber nicht! 
 

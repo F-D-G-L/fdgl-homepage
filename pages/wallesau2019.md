@@ -29,3 +29,6 @@ Randnotiz: Der „Heldenfriedhof“, der neben der Bühne aufgebaut ist, lädt z
 
 Wir sagen Danke und kommen wieder!
 
+<hr/>
+{{ fotogrid(["static/img/wallesau2019arise.jpg","static/img/wallesau2019propain.jpg","static/img/wallesau2019helden.jpg"])|safe }}
+

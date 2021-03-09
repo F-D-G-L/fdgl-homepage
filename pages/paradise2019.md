@@ -7,7 +7,7 @@ Auch dieses Jahr sind wir wieder zum [Metal Hammer Paradise](https://metal-hamme
 
 ![Das Metal Hammer Paradise heißt uns willkommen](static/img/paradise2019welcome.jpg#illustration)
 
-## Freitag
+### Freitag
 
 Den musikalischen Auftakt am Freitag bilden **Motorowl** aus Thüringen. Die junge Band hat sichtlich Freude an ihrem Auftritt und liefert einen tollen Gig in der komplett gefüllten _Riffalm_. Die „Riffalm“ ist ein kleines Rondell, in der immer die kleinen Bands und Newcomer zu sehen sind. Tatsächlich fanden dort dieses Jahr die Konzerte statt, die ich am spannendsten fand.
 
@@ -25,7 +25,7 @@ Danach gibt es nichts Interessantes mehr für uns. Die beiden Konzerte waren jed
 
 Furchtbar dagegen der Freitags-Headliner, **Steel Panther**.  Keine Ahnung, was die Jungs vom Metal Hammer geritten hat, diese Band als Headliner ins Billing zu nehmen. Das Publikum war offensichtlich der gleichen Meinung. Kaum Applaus, dafür Pfiffe und Buh-Rufe für die arrogante Band aus Los Angeles.
 
-## Samstag
+### Samstag
 
 Graues, regnerisches Wetter lädt zu einem ausgedehnten Frühstück ein, bevor mit den **Burning Witches**, einer Frauenformation aus der Schweiz, die im sexy Outfit klassischen Heavy Metal spielen, der Konzerttag beginnt.
 
@@ -46,5 +46,9 @@ Ein Traum, wir sind umgeben von lauter glücklichen Metalheads. Die Band spielt 
 
 Auf dem Rückweg noch ein kurzer Blick zu **Destruction**, die das letzte Konzert des Abends auf  der mittleren Bühne, dem _Baltic Ballroom_  geben. Da wir auch den Samstags-Headliner, **Powerwolf** aktiv vermeiden, legen wir einen kurzen Abstecher zum Apartment ein (zum Bier holen) und stürzen uns dann lieber in die Aftershow-Party. Die DJs des _Ballroom_, Hamburg, geben einen bekannten Metal-Kracher nach dem anderen und man kann noch mal so richtig abmoshen.
 
-## Fazit
+### Fazit
+
 Schön war’s. Das Metal Hammer Paradise ist sehr familiär, ich schätze mal ca. 4000 Leute, sodass man ständig denkt: „Hey, den hab’ ich doch schon mal gesehen“. Man kommt schnell ins Gespräch und trifft immer wieder alte Bekannte. Apropos alt … es kommt eher die ältere Generation zu diesem Festival - was wohl auch an dem Komfort liegt, den die dortigen Unterkünfte bieten.
+
+<hr/>
+{{ fotogrid(["static/img/paradise2019welcome.jpg","static/img/paradise2019motorowl.jpg", "static/img/paradise2019khemmis.jpg", "static/img/paradise2019misery.jpg", "static/img/paradise2019demon.jpg", "static/img/paradise2019amorphis.jpg"])|safe }}
