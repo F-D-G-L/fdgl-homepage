@@ -37,3 +37,6 @@ Ich hätte mich auch über _“Paralyzed”_ gefreut, das keinen Platz in der Se
 Im Nachgang kommen wir noch mit Leuten vom Verein ins Gespräch und erfahren, dass leider nur ca. 2200 Tickets (von 4000 möglichen) verkauft wurden und Dream Theater zudem noch die teuerste Band des diesjährigen Billings war. Bleibt nur zu hoffen, dass damit das Experiment einer „Heavy-Nummer“ beim Zeltspektakel nicht schon wieder gestorben ist. 
 
 Ich bin begeistert davon, was in Winterbach auf die Beine gestellt wird. Der Verein veranstaltet das Zeltspektakel nun seit 1995 im Zweijahrestakt. Dann findet eine Woche lang jeden Abend ein Konzert statt. Die ehrenamtlichen Helfer an den Kassen, Getränkeständen, Ordner, Stagehands, Catering, etc. nehmen sich für Aufbau, Durchführung, Abbau Urlaub und arbeiten in ihrer Freizeit, damit wir Spass haben können. Daher nochmal ein riesengroßes Dankeschön an die Veranstalter und alle Helfer!
+
+<hr/>
+{{ fotogrid(["static/img/zeltspektakel2019lineup.jpg","static/img/zeltspektakel2019ghostiris.jpg","static/img/zeltspektakel2019dt.jpg", "static/img/zeltspektakel2019soli.jpg"])|safe }}

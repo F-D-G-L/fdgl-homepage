@@ -3,13 +3,13 @@ date: 05.08.2019
 author: Markus
 description: Ein weiterer Artikel aus der Reihe „FDGL on Tour“. Diesmal mein ganz persönliches Festivaltagebuch zu Wacken 2019 mit einigen Erlebnissen und Konzertberichten. Habt Spaß!
 
-## Mo 29.07.2019, Anreise
+### Mo 29.07.2019, Anreise
 
 Unsere Anreise beginnt bereits am Vortag, dem Sonntag den 28.07. und steht von Anfang an unter einem schlechten Stern: Die Abfahrt verzögert sich aufgrund eines Unwetters mit Starkregen. Anstatt mit dem fertig gepackten Auto loszufahren, verbringen wir zwei Stunden damit, Wasser im Keller aufzuwischen. Wir wollten uns eigentlich Höhe Kassel mit einer Freundin zum gemeinsamen Abendessen treffen und dort die Nacht verbringen. Nun ja, aus dem Abendessen wurde dann ein gemeinsames Frühstück und um 10:00 Uhr Montagmorgen ging es schließlich weiter, die restlichen knapp 400 km bis Wacken. 
 
 Was ich mir als lockere Fahrt vorgestellt hatte, erwies sich als Geduldsprobe, da die A7 derzeit wohl die längste Baustelle im Bundesgebiet ist… Eigentlich sah ich mich bereits ab 14:00 Uhr auf dem Campground das erste Bier köpfen und mit Freunden, die wir in Wacken kennengelernt haben und seitdem dort treffen, anzustoßen. Tatsächlich war es dann 18:00 Uhr bis wir den Platz erreichten. Immerhin lockerte sich der Verkehr nach dem Elbtunnel und alle Warteschlangen vor Wacken hatten sich bereits aufgelöst, so dass wir direkt auf den Platz fahren konnten. Wenigstens ein Vorteil, wenn man seine Wartezeit bereits auf der Autobahn abgeleistet hat.
 
-## Di 30.07.2019, Mit Freunden am Campground
+### Di 30.07.2019, Mit Freunden am Campground
 
 Der Dienstag ist für uns immer der Freunde-Tag. Dieses Jahr erstaunt uns aber, wie viele Metalheads bereits den Montag oder Dienstag zur Anreise genutzt haben. Es ist bereits ziemlich voll. Ob zum 30-jährigen die Erwartungen besonders hoch sind? Oder haben mittlerweile mehr Leute zu schätzen gelernt, eine ganze Woche auf dem Acker zu verbringen?
 
@@ -23,7 +23,7 @@ Marion hat das Zelt mit laminierten Fotos der vergangenen Jahre dekoriert und  A
 Dieses Jahr war jedoch insofern etwas besonderes, da es auch ein FDGL-Camp in Wacken gab. Als frischgebackene Mitglieder (ich hatte mir den Patch am Samstag noch schnell auf die Kutte genäht…), machten wir uns daher am frühen Nachmittag auf die Reise. Reise, denn das Camp von Merry, Dieter, Steffi und Michi lag gefühlt am Arsch des Campgrounds. Jedenfalls ganz weit aussen…
 
 
-## Mi 31.07.2019, Warm-Up
+### Mi 31.07.2019, Warm-Up
 Mittwoch, das Vorprogramm beginnt. Im Bullhead City Circus Zelt mit seinen zwei Bühnen spielen unter anderem **Sweet** und **Rose Tattoo**, sowie zu späterer Stunde **Sisters of Mercy**.  Der erste Versuch, ins Zelt zu kommen wird durch eine Unwetterwarnung unterbrochen. Das Festival wird aufgrund eines drohenden Gewitters für 30 min. unterbrochen. Ich flitze zurück ins Camp, um alles zu sichern. Unsere Freunde kommen auch zurück und schmeissen den Grill an. Zwangsgrillen sozusagen…
 
  !["Gehängter": Anchovisfilets mit Korn](static/img/woa2019_03.jpg#illustration "Füsch") 
@@ -40,7 +40,7 @@ Leider sind wir etwas zu spät dran. Das Zelt ist rappelvoll und die Security ma
 Zu **Rose Tattoo** wurde der Sound übrigens etwas besser, nur um dann bei **Sisters of Mercy**  wieder im Abgrund zu verschwinden. Dazu zeigt die Videoleinwand nur noch eine Totale der Bühne… laaangweilig. Abbruch.
 
 
-## Do 01.08.2019, Erster „voller“ Festivaltag
+### Do 01.08.2019, Erster „voller“ Festivaltag
 
 Heute ist der erste „echte“ Festivaltag. Das Infield wird heute eröffnet und traditionell tritt **Skyline** als Erstes an. Die Band, für die Wacken einst ins Leben gerufen wurde. Schließlich war eine Hauptmotivation für das erste Wacken Open Air 1990, der Band, in der Veranstalter _Thomas Jensen_ Bass spielte, die dringend benötigte Auftrittsmöglichkeit zu bieten. Zum 30-jährigen Jubiläum hat Skyline sogar extra zwei Wacken-Hymnen, _[“30 Years Ago“](https://youtu.be/-1ohBAl7h0M "Skyline - 30 Years Ago")_ und _[“This is W:O:A“](https://youtu.be/2OVCkfVLfNg "Skline - This is W:O:A"),_ komponiert und  selbst _Thomas Jensen_ betritt für einen Song die Bühne und begleitet am Bass. 
 ![Skyline mit Thomas Jensen am Bass](static/img/woa2019_05.jpg#illustration "Sykline")
@@ -57,7 +57,7 @@ Der Hauptact am Donnerstag ist **Sabaton**, die sich zu ihrem 20-jährigen Band-
 Statt Sabaton haben wir uns noch den Geheimtip **Sibiir** auf der Wasteland Stage angesehen. Die Norweger spielen Post-Metallic-Blackened-Hardcore und sind definitiv einen Besuch wert.  Zudem ist die Wastelandstage mit ihrem Feuerspektakel immer eine  attraktive Bühne, sobald es dunkel geworden ist.
 ![Sibiir auf der Wasteland Stage](static/img/woa2019_07.jpg#illustration "Sibiir")
 
-## Fr 02.08.2019, Slayer!!!
+### Fr 02.08.2019, Slayer!!!
 Heute heisst es, früh aufzustehen. Wir wollen gleich morgens auf’s Infield, schließlich spielen um 11:00 Uhr bereits  die ukrainischen **Jinjer** mit der unglaublich beeindruckenden Sängerin _Tatiana Shmaylyuk_, die zum vielseitigen Metalcore Crossover Sound der Band wie keine andere übergangslos zwischen Growl- und Klargesang wechselt.
 
 Übrigens, typisch Metalheads: Die Gates zum Infield sind noch geschlossen und es bilden sich ganz brav geordnete Schlangen. Man drängelt nicht, unterhält sich und wartet geduldig, bis man drankommt.
@@ -86,7 +86,7 @@ Mein spezielles Highlight zu später Stunde, kommt wie so oft aus Schweden. **Op
 
 Rechts leicht schräg vor mir steht ein junger Mann, dessen Dreads bis in die Kniekehlen hängen. Auch geht ein süßlicher Grasgeruch von ihm bzw. von seiner Tüte aus. Um ihn herum ist viel Platz und ich ergreife die Gelegenheit, zwei Schritte weiter vor zu treten. Fehler! Bei _Cusp of Eternity_ fängt er so in sich versunken und hingebungsvoll zu bangen an, dass seine Haartracht einen klar markierten, weitläufigen Kreis zieht und fast schon schmerzhaft auf meinem Kopf und meiner Schulter einschlägt. Schnell wieder den gebührenden Sicherheitsabstand einnehmen. **Opeth** schließen das Set mit _Deliverance_ und erweisen damit allen alten Fans die Ehre. 
 
-## Sa 03.08.2019, Letzter Festivaltag
+### Sa 03.08.2019, Letzter Festivaltag
 So schnell kann’s gehen. Es ist bereits Samstag, der letzte Festivaltag. Auf der Running Order steht heute eher coriges, den Headliner bilden heute **Parkway Drive**. Dennoch hat der Tag einiges an Erlebnissen zu bieten, so muss der alte Herr in mir auf jeden Fall zu **Uriah Heep**_. Auch wenn von den alten Heep nur noch der sympathische _Mick Box_ übriggeblieben ist, der uns dafür aber sehr herzlich auf Deutsch begrüßt und uns natürlich, nach etlichen Liedern vom aktuellen Album _Living the Dream_ , auch mit _Lady in Black_ belohnt.
 
 Auch **Kvelertak** machen Laune. Allerdings müssen wir nach drei Songs weiter in Richtung Wasteland. Ein FDGL-Fototermin wartet. Auf der Wasteland Stage  machen sich gerade **Critical Mess** bereit für ihren Auftritt, deren Fronterin _Britta Görtz_ nicht nur in Wacken, sondern auch beim [FDGL-Growl-Workshop](https://www.fdgl.rocks/?p=217 "FDGL Growl-Workshop") beweisen wird, dass sie es drauf hat.
@@ -102,7 +102,7 @@ Eine weiteres Spektakel steht uns noch mit der _30th Anniversary Show_ bevor, di
 
 **Parkway Drive**  ziehen mit einem Fackelzug direkt durch die Menge auf die Bühne, eröffnen mit _Wishing Wells_ und _Prey_ und kündigen danach an, dass der Gig beinahe ausfallen musste, da sich der Bassist ein Knie gebrochen hatte. Sänger _Winston McCall_ kündigt daraufhin an: „Please welcome our new and improved bass player on a wheel chair!“ und Bassist _Jia O’Connor_ wird von seiner Mutter (!) im Rollstuhl auf die Bühne geschoben. Diese wiederum nutzt die Gelegenheit und startet zu _Carrion_ in die Menge, um zum ersten Mal in ihrem Leben zu crowdsurfen. Wie die Menge sie feiert!
 
-## So 04.08.2019, Trennungsschmerz 
+### So 04.08.2019, Trennungsschmerz 
 Tja, am Sonntag ist dann wieder alles vorbei. Schade. Es löst sich auf, man verabschiedet sich und fährt wieder heim. Bei der Abfahrt vom Platz begegnen uns nochmal zufällig die Wabers und wir winken uns von Auto zu Auto zu, bevor wir uns in die Abreiseschlange einsortieren, diese aber bald wieder verlassen, da wir noch ein paar Tage an der Ostsee daranhängen werden. Schön war’s!
 
 <hr/>
