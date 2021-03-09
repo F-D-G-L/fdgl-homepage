@@ -14,7 +14,7 @@ html {
 }
 
 body {
-    text-size-adjust:100%
+    text-size-adjust:100%;
     background-attachment: fixed;
     background-color: #000000;
     color: rgba(255, 255, 255, 0.75);
@@ -55,6 +55,11 @@ h1 {
 h2 {
     font-size: 1.5rem;
     margin-top:1rem
+}
+
+hr  {
+    border: 1px solid #c11012;
+    border-radius: 2px;
 }
 
 #sidebar {

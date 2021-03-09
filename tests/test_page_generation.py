@@ -1,6 +1,7 @@
 # SPDX-License-Identifier: GPL-3.0
 import os
 
+
 def test_index(app, client):
     for f in os.listdir('pages'):
         if not f.endswith('.md'):
