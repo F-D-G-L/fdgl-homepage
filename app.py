@@ -7,6 +7,7 @@ from flask_fontawesome import FontAwesome
 from datetime import datetime
 from fotogrid import fotogrid
 
+
 # directly support jinja within markdown blogposts
 # https://flask-flatpages.readthedocs.io/en/v0.7.1/
 def markdown_with_jinja_renderer(text):
