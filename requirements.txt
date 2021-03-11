@@ -1,6 +1,7 @@
 flask
 flask_flatpages
 flask_fontawesome
+feedgen
 
 pytest
 pytest-cov
