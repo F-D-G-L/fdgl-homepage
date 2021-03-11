@@ -270,3 +270,11 @@ img[src $= "#illustration"] {
         padding: 1rem
     }
 }
+
+.btn {
+    background-color: #c11012;
+    color: white;
+    padding: 2px 8px;
+    font-size: 48px;
+    border: none;
+}
