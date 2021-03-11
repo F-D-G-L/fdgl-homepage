@@ -8,6 +8,7 @@ from flask_fontawesome import FontAwesome
 from datetime import datetime
 from fotogrid import fotogrid
 from feed import generate_feed
+import locale
 
 
 # directly support jinja within markdown blogposts
@@ -74,4 +75,5 @@ def rss():
 
 
 if __name__ == '__main__':
+    locale.setlocale(locale.LC_TIME, "de_DE")
     app.run(host='0.0.0.0')
