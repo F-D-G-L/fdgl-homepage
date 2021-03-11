@@ -7,6 +7,7 @@ from flask_flatpages.utils import pygmented_markdown
 from flask_fontawesome import FontAwesome
 from datetime import datetime
 from fotogrid import fotogrid
+from feed import generate_feed
 
 
 # directly support jinja within markdown blogposts
@@ -65,6 +66,11 @@ def index():
     sorted_pages = sorted(posts, reverse=True, key=lambda page:
                           datetime.strptime(page.meta["date"], "%d.%m.%Y"))
     return render_template('index.html', pages=sorted_pages)
+
+
+@app.route('/rss')
+def rss():
+    return generate_feed(pages)
 
 
 if __name__ == '__main__':
