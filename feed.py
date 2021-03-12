@@ -26,6 +26,7 @@ def generate_feed(pages):
         fe.author(name=p.meta['author'])
         fe.description(p.meta['description'])
         fe.link(href='https://fdgl.rocks/' + p.path + '.html')
+        fe.content(p.html)
 
     response = make_response(fg.rss_str())
     response.headers.set('Content-Type', 'application/rss+xml')
