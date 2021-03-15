@@ -1,5 +1,5 @@
 title: Rockharz 2019
-date: 09.07.2020
+date: 09.07.2019
 author: Merry
 description: So, nun sind wir auch wieder heimgekehrt aus dem wunderschönen Harz. Da gibt es nicht nur Käse, sondern auch ein richtig geiles Festival.
 
