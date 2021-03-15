@@ -50,6 +50,11 @@ def verein():
     return render_template('verein.html')
 
 
+@app.route('/kontakt.html')
+def kontakt():
+    return render_template('kontakt.html')
+
+
 @app.route('/datenschutz.html')
 def datenschutz():
     return render_template('datenschutz.html')
