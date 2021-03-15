@@ -13,6 +13,19 @@ html {
   line-height: 1.5;
 }
 
+/*
+    On modern smartphones with high dpi screens, we have to enlarge the font in portrait mode
+ */
+@media only screen and (-moz-min-device-pixel-ratio: 2) and (orientation: portrait),
+       only screen and (-o-min-device-pixel-ratio: 2/1) and (orientation: portrait),
+       only screen and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait),
+       only screen and (min-device-pixel-ratio: 2) and (orientation: portrait) {
+
+    html {
+        font-size: 2.5rem;
+    }
+}
+
 body {
     text-size-adjust:100%;
     background-attachment: fixed;
@@ -47,6 +60,11 @@ h1, h2, h3, h4, h5, h6, .site-title {
     margin-bottom: .5rem;
     text-rendering:optimizeLegibility
 }
+
+.site-title, .site-subtitle {
+    text-align: center;
+}
+
 
 h1 {
     font-size:2rem
@@ -168,7 +186,10 @@ img[src $= "#illustration"] {
 }
 
 
-@media (min-width: 49rem) {
+/*
+    Landscape mode: Navbar to the left.
+ */
+@media (min-width: 49rem) and (orientation: landscape) {
     body {
         flex-direction: row;
         min-height: 100vh;
@@ -197,8 +218,8 @@ img[src $= "#illustration"] {
 
     #sidebar .site-title {
         font-size:3.25rem;
-        text-align: center;
     }
+
 
     #sidebar .site-title .back-arrow {
         display:none
@@ -251,14 +272,18 @@ img[src $= "#illustration"] {
     text-decoration:underline
 }
 
-@media screen and (max-width: 783px) {
+/*
+    Portrait with navigation on top. Mostly for smartphones.
+ */
+@media screen and (max-width: 783px), (orientation: portrait) {
     .container > .content {
         padding:1.5rem
     }
 
     #sidebar #sidebar-nav-links {
         flex-direction: row;
-        justify-content:space-evenly
+        justify-content:space-evenly;
+        flex-wrap: wrap;
     }
 
     #sidebar #sidebar-nav-links a {
