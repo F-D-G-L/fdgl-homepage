@@ -7,6 +7,9 @@
     <link rel="fotogrid stylesheet" href="{{ url_for('static', filename='css/fotogrid.css') }}">
     <link rel="event cards stylesheet" href="{{ url_for('static', filename='css/events.css') }}">
     <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
+    <style>
+      {% block additional_style %}{% endblock additional_style %}
+    </style>
     <title>FdgL - Freunde des geordneten Lärms</title>
   </head>
   <body class=post>

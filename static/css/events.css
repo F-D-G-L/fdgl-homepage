@@ -11,12 +11,20 @@
  */
 .event-card {
     border-style: solid;
-    border-width: 3px;
-    border-color: black;
-    border-radius: 9px;
-    margin: 4px 4px 4px 1px;
-    padding-left: 8px;
-    padding-right: 8px;
+    border-width: 0.2rem;
+    border-image-source: linear-gradient(to bottom, rgba(191, 191, 191, 1.0), rgba(255, 255, 255, 1.0));
+    border-image-slice: 1;
+    margin: 0.2rem 0.2rem 0.2rem 0.2rem;
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+    width: 16rem;
+}
+
+.event-card-fdgl {
+    border-width: 0.4rem;
+    border-color: #c11012;
+    border-image-source: none;
+    border-image-sice: none;
 }
 
 .event-card img {
@@ -50,8 +58,8 @@
     padding-right: 2px;
 }
 
-@media (min-width: 54rem) {
+@media screen and (max-width: 783px), (orientation: portrait) {
     .event-card {
-        max-width: 40%;
+        width: 100%;
     }
 }

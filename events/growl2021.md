@@ -10,4 +10,4 @@ description: Lernt Growlen, Screamen, Grunten wie die Großen!
 attending: Britta Görtz
 
 Lernt Growlen, Screamen, Grunten wie die Großen! 
-Im FdgL-Growl-Workshop mit Britta Görz von Critical Mess.
+Im FdgL-Growl-Workshop mit Britta Görtz von Critical Mess.
