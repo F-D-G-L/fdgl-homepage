@@ -161,12 +161,12 @@ img[src $= "#illustration"] {
 /*
     Display an external icon after each link that leads away from our site.
  */
-.content a[href^="http://"]:not([href*="fdgl.rocks"]):not([href*="youtu.be"]):not([href*="youtube.com"]):after,
-.content a[href^="https://"]:not([href*="fdgl.rocks"]):not([href*="youtu.be"]):not([href*="youtube.com"]):after {
+.content a[href^="http://"]:not([href*="fdgl.rocks"]):not([href*="youtu.be"]):not([href*="youtube.com"]):not([href*="#hideextern"]):after,
+.content a[href^="https://"]:not([href*="fdgl.rocks"]):not([href*="youtu.be"]):not([href*="youtube.com"]):not([href*="#hideextern"]):after {
 
     font-family: 'Font Awesome 5 Free';
     content: "\f35d";
-    display: inline-block;
+    display: inline-block;e
     font: normal 16px/1 'Font Awesome 5 Free';
     margin-left: 4px;
 }

@@ -1,0 +1,34 @@
+{% extends "template.html" %}
+
+{% block title %}
+    Was liegt an?
+{% endblock %}
+{% block content %}
+    <div class="event-container">
+
+    {% for event in events %}
+        <div class="event-card"
+             style="background-image:
+                     linear-gradient(to bottom, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 1.0)),
+                     url({{ event.pic }});
+                     background-repeat: no-repeat;
+                     background-size: cover;
+                     background-position: center;">
+            <a href="{{ event.link }}#hideextern"><h2>{{ event.title }}</h2></a>
+            <!--<img src="{{ event.pic }}"></img>-->
+            <p><i class="fas fa-calendar-alt">&nbsp;</i>{{ event.date }}</p>
+            <span class="event-type">{{ event.event }}</span>
+            {% if event.fdglevent == 'ja' %}
+                 <span class="event-type-fdgl"><i class="fas fa-certificate">&nbsp;</i>FdgL Event</span>
+            {%  endif %}
+            <p> {{ event.html|safe }} </p>
+            <p class="attending">vor Ort:
+                {%  for a in event.attending.split(',') %}
+                    <span class="attendee">{{ a }}{%  if a != event.attending.split(',')[-1] %},{%  endif %}</span>
+                {%  endfor %}
+            </p>
+        </div>
+    {% endfor %}
+
+    </div>
+{% endblock %}
