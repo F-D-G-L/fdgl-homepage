@@ -6,12 +6,13 @@
         }
     {% endblock additional_style %}
 {% block title %}
-    Was liegt an?
+    Events
 {% endblock %}
 {% block content %}
-    <p>
-    Neben unseren eigenen Veranstaltungen trefft ihr uns auch auf Konzerten und
-    Festivals an. Haltet nach unserem Patch Ausschau und sprecht uns an!
+    <h3>Was liegt an?</h3>
+    <p>Neben unseren eigenen Veranstaltungen trefft ihr FdgLer:innen auch auf
+    Konzerten und Festivals an. Haltet nach unserem Patch Ausschau und sprecht
+    uns an!
     </p>
     <div class="event-container">
 
@@ -33,10 +34,13 @@
 
             <p> {{ event.html|safe }} </p>
 
-            <p class="attending">vor Ort:
-                {%  for a in event.attending.split(',') %}
-                    <span class="attendee">{{ a }}{%  if a != event.attending.split(',')[-1] %},{%  endif %}</span>
-                {%  endfor %}
+            <p class="attending">
+                {%  if event.attending != None %}
+                    vor Ort:
+                    {%  for a in event.attending.split(',') %}
+                        <span class="attendee">{{ a }}{%  if a != event.attending.split(',')[-1] %},{%  endif %}</span>
+                    {%  endfor %}
+                {%  endif %}
             </p>
         </div>
     {% endfor %}

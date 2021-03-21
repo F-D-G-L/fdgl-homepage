@@ -28,7 +28,7 @@ def format_date_string(date_string):
 def sort_date_from_string(date_string):
     try:
         return datetime.strptime(date_string.split('-')[0].strip(), "%d.%m.%Y")
-    except:
+    except Exception:
         return datetime.now()
 
 
@@ -66,7 +66,8 @@ def verein():
 @app.route('/events.html')
 def view_events():
     posts = [p for p in events if "date" in p.meta]
-    sorted_events = sorted(posts, reverse=False, key=lambda event: sort_date_from_string(event.meta["date"]))
+    sorted_events = sorted(posts, reverse=False, key=lambda event:
+                           sort_date_from_string(event.meta["date"]))
     return render_template('events.html', events=sorted_events)
 
 
