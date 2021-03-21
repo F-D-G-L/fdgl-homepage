@@ -1,13 +1,14 @@
 title: Growl-Workshop mit Britta
-date: n/a
+date: sobald es wieder geht
 author: Markus
 event: Workshop
 fdglevent: ja
-location: Halle96
-link: /growl-workshop.html
+location:
+link:
 pic:
 description: Lernt Growlen, Screamen, Grunten wie die Großen! 
 attending: Britta Görtz
 
-Lernt Growlen, Screamen, Grunten wie die Großen! 
-Im FdgL-Growl-Workshop mit Britta Görtz von Critical Mess.
+Der erste [Growl-Workshop](/growl-workshop.html) war ein voller Erfolg und wir 
+werden dies auf jeden Fall zusammen mit Britta wiederholen, sobald es möglich 
+wird.
