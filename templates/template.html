@@ -5,7 +5,11 @@
     {{ fontawesome_html() }}
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
     <link rel="fotogrid stylesheet" href="{{ url_for('static', filename='css/fotogrid.css') }}">
+    <link rel="event cards stylesheet" href="{{ url_for('static', filename='css/events.css') }}">
     <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
+    <style>
+      {% block additional_style %}{% endblock additional_style %}
+    </style>
     <title>FdgL - Freunde des geordneten Lärms</title>
   </head>
   <body class=post>
@@ -23,8 +27,9 @@
         </div>
       </header>
         <nav id="sidebar-nav-links">
-        <a class="page-link" href="{{ url_for('verein') }}">Verein</a>
         <a class="page-link" href="{{ url_for('index') }}">News</a>
+        <a class="page-link" href="{{ url_for('verein') }}">Verein</a>
+        <a class="page-link" href="{{ url_for('view_events') }}">Events</a>
         <a class="page-link" href="{{ url_for('kontakt') }}">Kontakt</a>
         <a class="page-link" href="{{ url_for('datenschutz') }}">Datenschutz</a>
         <a class="page-link" href="{{ url_for('impressum') }}">Impressum</a>
@@ -37,13 +42,7 @@
       <div class="content">
         <div class="post-body">
           {% block content %}
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-          ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
+
           {% endblock content %}
         </div>
       </div>

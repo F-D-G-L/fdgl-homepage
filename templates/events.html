@@ -1,0 +1,49 @@
+{% extends "template.html" %}
+    {% block additional_style %}
+        .container > * {
+            max-width: 50rem;
+            padding:0
+        }
+    {% endblock additional_style %}
+{% block title %}
+    Events
+{% endblock %}
+{% block content %}
+    <h3>Was liegt an?</h3>
+    <p>Neben unseren eigenen Veranstaltungen trefft ihr FdgLer:innen auch auf
+    Konzerten und Festivals an. Haltet nach unserem Patch Ausschau und sprecht
+    uns an!
+    </p>
+    <div class="event-container">
+
+    {% for event in events %}
+        <div class="event-card {% if event.fdglevent == 'ja' %} event-card-fdgl{% endif %}"
+             style="background-image:
+                     linear-gradient(to bottom, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 1.0)),
+                        url({{ event.pic }});
+                     background-repeat: no-repeat;
+                     background-size: cover;
+                     background-position: center;">
+            <a href="{{ event.link }}#hideextern"><h2>{{ event.title }}</h2></a>
+            <!--<img src="{{ event.pic }}"></img>-->
+            <p><i class="fas fa-calendar-alt">&nbsp;</i>{{ event.date }}</p>
+            {% if event.fdglevent == 'ja' %}
+                 <span class="event-type"><i class="fas fa-asterisk">&nbsp;</i>FdgL</span>
+            {%  endif %}
+            <span class="event-type">{{ event.event }}</span>
+
+            <p> {{ event.html|safe }} </p>
+
+            <p class="attending">
+                {%  if event.attending != None %}
+                    vor Ort:
+                    {%  for a in event.attending.split(',') %}
+                        <span class="attendee">{{ a }}{%  if a != event.attending.split(',')[-1] %},{%  endif %}</span>
+                    {%  endfor %}
+                {%  endif %}
+            </p>
+        </div>
+    {% endfor %}
+
+    </div>
+{% endblock %}

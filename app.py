@@ -25,17 +25,30 @@ def format_date_string(date_string):
     return date.strftime("%d. %B %Y")
 
 
+def sort_date_from_string(date_string):
+    try:
+        return datetime.strptime(date_string.split('-')[0].strip(), "%d.%m.%Y")
+    except Exception:
+        return datetime.now()
+
+
 # create app
 app = Flask(__name__)
-app.config['FLATPAGES_EXTENSION'] = '.md'
-app.config['FLATPAGES_HTML_RENDERER'] = markdown_with_jinja_renderer
+app.config['FLATPAGES_PAGES_EXTENSION'] = '.md'
+app.config['FLATPAGES_PAGES_HTML_RENDERER'] = markdown_with_jinja_renderer
+
+app.config['FLATPAGES_EVENTS_EXTENSION'] = '.md'
+app.config['FLATPAGES_EVENTS_HTML_RENDERER'] = markdown_with_jinja_renderer
+app.config['FLATPAGES_EVENTS_ROOT'] = 'events'
+
 app.config['FONTAWESOME_STYLES'] = ['solid', 'brands']
 
 # register fotogrid with jinja
 app.jinja_env.globals.update(fotogrid=fotogrid)
 app.jinja_env.globals.update(format_date_string=format_date_string)
 
-pages = FlatPages(app)
+pages = FlatPages(app, name="pages")
+events = FlatPages(app, name="events")
 fa = FontAwesome(app)
 
 
@@ -48,6 +61,14 @@ def page(path):
 @app.route('/verein.html')
 def verein():
     return render_template('verein.html')
+
+
+@app.route('/events.html')
+def view_events():
+    posts = [p for p in events if "date" in p.meta]
+    sorted_events = sorted(posts, reverse=False, key=lambda event:
+                           sort_date_from_string(event.meta["date"]))
+    return render_template('events.html', events=sorted_events)
 
 
 @app.route('/kontakt.html')
@@ -70,7 +91,7 @@ def impressum():
 def index():
     posts = [p for p in pages if "date" in p.meta]
     sorted_pages = sorted(posts, reverse=True, key=lambda page:
-                          datetime.strptime(page.meta["date"], "%d.%m.%Y"))
+                          sort_date_from_string(page.meta["date"]))
     return render_template('index.html', pages=sorted_pages)
 
 

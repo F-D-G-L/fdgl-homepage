@@ -1,0 +1,65 @@
+/*
+ The event container uses flex layout to arrange the different events as cards.
+ */
+.event-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*
+ Each event card displays an event in a nice way as a card.
+ */
+.event-card {
+    border-style: solid;
+    border-width: 0.2rem;
+    border-image-source: linear-gradient(to bottom, rgba(191, 191, 191, 1.0), rgba(255, 255, 255, 1.0));
+    border-image-slice: 1;
+    margin: 0.2rem 0.2rem 0.2rem 0.2rem;
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+    width: 16rem;
+}
+
+.event-card-fdgl {
+    border-width: 0.4rem;
+    border-color: #c11012;
+    border-image-source: none;
+    border-image-sice: none;
+}
+
+.event-card img {
+    width: 100%;
+}
+
+.attending {
+    font-size: 0.8rem;
+    color: #c11012;
+}
+
+.attendee {
+    color: #515151;
+}
+
+.event-type {
+    text-transform: uppercase;
+    color: white;
+    background: #c11012;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+.event-type-fdgl {
+    color: #c11012;
+    background: white;
+    border-style: dotted;
+    border-color: #c11012;
+    border-width: 1px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+@media screen and (max-width: 783px), (orientation: portrait) {
+    .event-card {
+        width: 100%;
+    }
+}
