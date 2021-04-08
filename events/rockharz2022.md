@@ -1,5 +1,5 @@
 title: Rockharz
-date: 07.07.2022 - 10.07.2022
+date: 06.07.2022 - 09.07.2022
 author: Markus
 event: Festival
 location: Ballenstedt
@@ -8,4 +8,4 @@ pic: /static/img/events/rh_2021.jpg
 description: Die FdgL hat das Rockharz in's Herz geschlossen und wird auch beim nächsten Mal mit am Start sein.  
 attending: 
 
-Die FdgL hat das Rockharz in's Herz geschlossen und wird auch beim nächsten Mal mit am Start sein.
+Die FdgL hat das Rockharz ins Herz geschlossen und wird auch beim nächsten Mal mit am Start sein.
