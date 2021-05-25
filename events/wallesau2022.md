@@ -1,5 +1,5 @@
 title: Wallesau ist Blau!
-date: 27.08.2021 - 28.08.2021
+date: 26.08.2022 - 27.08.2022
 author: Markus
 event: Festival
 location: Wallesau
