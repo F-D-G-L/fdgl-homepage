@@ -1,5 +1,5 @@
 title: Wacken
-date: 29.07.2021 - 31.07.2021
+date: 04.08.2022 - 06.08.2022
 author: Markus
 event: Festival
 location: Wacken
