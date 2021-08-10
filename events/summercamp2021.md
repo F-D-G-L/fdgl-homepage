@@ -4,7 +4,7 @@ author: Markus
 event: Summercamp
 fdglevent: ja
 location: https://fdgl.rocks
-link: https://fdgl.rocks
+link: /fdglsummercamp2021.html
 pic: /static/img/events/summercamp2021.jpg
 description: FDGL Summercamp Festival ohne Bands (nur Vereinsmitglieder).
 attending: alle

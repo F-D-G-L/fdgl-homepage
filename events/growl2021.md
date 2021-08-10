@@ -4,7 +4,7 @@ author: Markus
 event: Workshop
 fdglevent: ja
 location:
-link:
+link: /growl-workshop.html
 pic:
 description: Lernt Growlen, Screamen, Grunten wie die Großen! 
 attending: Britta Görtz
