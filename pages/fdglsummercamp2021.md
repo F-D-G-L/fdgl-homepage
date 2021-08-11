@@ -9,7 +9,7 @@ Als besonderes Sommerhighlight laden wir alle coronageplagten Mitglieder zum **1
 ![Summercamp](static/img/events/summercamp2021.jpg#illustration)
 
 Bald ist es soweit! Fast wie auf einem **Festival**, wollen wir gemeinsam campen, Musik hören, Spaß haben, Pläne schmieden und neue Ideen für unseren Verein entwickeln.
-Für Getränke und und Essen ist gesorgt — ein **Foodtruck** wird uns mit Leckerbissen aus regionalen Zutaten verwöhnen.
+Für Getränke und Essen ist gesorgt — ein **Foodtruck** wird uns mit Leckerbissen aus regionalen Zutaten verwöhnen.
 
 Beim Summercamp handelt es sich um eine geschlossene Vereinsveranstaltung, die konform zu den aktuell geltenden Coronaregeln in Bayern durchgeführt wird und auch die diesjährige **Jahreshauptversammlung** mit einschließt.
 
