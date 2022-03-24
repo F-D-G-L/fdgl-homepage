@@ -1,5 +1,5 @@
 title: Metal Hammer Paradise
-date: 12.11.2021 - 13.11.2021
+date: 18.11.2022 - 19.11.2022
 author: Markus
 event: Festival
 location: Ferienpark Weissenhäuser Strand
