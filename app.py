@@ -32,6 +32,17 @@ def sort_date_from_string(date_string):
         return datetime.now()
 
 
+def is_future_date(date_string):
+    try:
+        start_date = datetime.strptime(date_string.split('-')[0].strip(), "%d.%m.%Y")
+        if start_date < datetime.now():
+            return False
+    except Exception:
+        pass
+
+    return True
+
+
 # create app
 app = Flask(__name__)
 app.config['FLATPAGES_PAGES_EXTENSION'] = '.md'
@@ -65,7 +76,7 @@ def verein():
 
 @app.route('/events.html')
 def view_events():
-    posts = [p for p in events if "date" in p.meta]
+    posts = [p for p in events if "date" in p.meta and is_future_date(p.meta["date"])]
     sorted_events = sorted(posts, reverse=False, key=lambda event:
                            sort_date_from_string(event.meta["date"]))
     return render_template('events.html', events=sorted_events)
