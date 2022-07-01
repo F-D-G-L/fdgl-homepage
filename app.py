@@ -8,20 +8,17 @@ from flask_fontawesome import FontAwesome
 from datetime import datetime
 import locale
 
+from config import Config
 from fotogrid import fotogrid
 from feed import generate_feed
 from utils import markdown_with_jinja_renderer, format_date_string, sort_date_from_string, is_future_date
 
 # create app
 app = Flask(__name__)
-app.config['FLATPAGES_PAGES_EXTENSION'] = '.md'
-app.config['FLATPAGES_PAGES_HTML_RENDERER'] = markdown_with_jinja_renderer
 
-app.config['FLATPAGES_EVENTS_EXTENSION'] = '.md'
-app.config['FLATPAGES_EVENTS_HTML_RENDERER'] = markdown_with_jinja_renderer
-app.config['FLATPAGES_EVENTS_ROOT'] = 'events'
-
-app.config['FONTAWESOME_STYLES'] = ['solid', 'brands']
+# load configuration from config file
+config = Config
+app.config.from_object(config)
 
 # register fotogrid with jinja
 app.jinja_env.globals.update(fotogrid=fotogrid)
@@ -81,5 +78,5 @@ def rss():
 
 
 if __name__ == '__main__':
-    locale.setlocale(locale.LC_TIME, "de_DE")
-    app.run(host='0.0.0.0')
+    locale.setlocale(locale.LC_TIME, config.LOCALE)
+    app.run(host=config.HOST, port=config.PORT)
