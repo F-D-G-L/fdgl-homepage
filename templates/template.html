@@ -16,7 +16,7 @@
     <div id="sidebar">
       <header>
         <div class="site-title">
-          <a href="{{ url_for("index") }}">
+          <a href="{{ url_for("main_blueprint.index") }}">
             <img src="{{ url_for('static', filename='logo.png') }}" alt="Fdgl - Freunde des geordneten Lärms e.V." height="150"/>
             <br/>FdgL e.V.
           </a>
@@ -27,12 +27,12 @@
         </div>
       </header>
         <nav id="sidebar-nav-links">
-        <a class="page-link" href="{{ url_for('index') }}">News</a>
-        <a class="page-link" href="{{ url_for('verein') }}">Verein</a>
-        <a class="page-link" href="{{ url_for('view_events') }}">Events</a>
-        <a class="page-link" href="{{ url_for('kontakt') }}">Kontakt</a>
-        <a class="page-link" href="{{ url_for('datenschutz') }}">Datenschutz</a>
-        <a class="page-link" href="{{ url_for('impressum') }}">Impressum</a>
+        <a class="page-link" href="{{ url_for('main_blueprint.index') }}">News</a>
+        <a class="page-link" href="{{ url_for('main_blueprint.verein') }}">Verein</a>
+        <a class="page-link" href="{{ url_for('main_blueprint.view_events') }}">Events</a>
+        <a class="page-link" href="{{ url_for('main_blueprint.kontakt') }}">Kontakt</a>
+        <a class="page-link" href="{{ url_for('main_blueprint.datenschutz') }}">Datenschutz</a>
+        <a class="page-link" href="{{ url_for('main_blueprint.impressum') }}">Impressum</a>
       </nav>
     </div>
     <main class="container">

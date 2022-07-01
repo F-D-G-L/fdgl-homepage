@@ -2,6 +2,7 @@
 # vim: set sw=4 ts=4 ex
 from utils import markdown_with_jinja_renderer
 
+
 class Config:
     """ configuration for application """
     FLATPAGES_PAGES_EXTENSION = '.md'

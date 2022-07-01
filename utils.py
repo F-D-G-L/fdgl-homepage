@@ -4,11 +4,13 @@ from flask import render_template_string
 from flask_flatpages.utils import pygmented_markdown
 from datetime import datetime
 
+
 # directly support jinja within markdown blogposts
 # https://flask-flatpages.readthedocs.io/en/v0.7.1/
 def markdown_with_jinja_renderer(text):
     prerendered_body = render_template_string(text)
     return pygmented_markdown(prerendered_body)
+
 
 # function to reformat date from blog posts for better
 # visualization on the pages
@@ -33,5 +35,3 @@ def is_future_date(date_string):
         pass
 
     return True
-
-
